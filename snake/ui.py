@@ -1,0 +1,32 @@
+from turtle import Turtle
+import random
+
+FONT = ("Courier",52,"normal")
+FONT2 = ("Courier",32,"normal")
+
+ALIGNMENT = "center"
+COLOR = "white"
+COLOR_LIST = ['light blue', 'royal blue', 
+              'light steel blue', 'steel blue',
+              'light cyan', 'light sky blue',
+              'violet', 'salmon', 'tomato',
+              'sandy brown', 'purple', 'deep pink', 
+              'medium sea green', 'khaki']
+
+
+class UI(Turtle):
+    def __init__(self):
+        super().__init__()
+        self.hideturtle()
+        self.penup()
+        self.color(random.choice(COLOR_LIST))
+        self.header()
+ 
+    def header(self):
+        self.clear()
+        self.goto(x=0, y=-150)
+        self.write('Snake', align=ALIGNMENT, font=FONT)
+        self.goto(x=0, y=-180)
+        
+ 
+    
