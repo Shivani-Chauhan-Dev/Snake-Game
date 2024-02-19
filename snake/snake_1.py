@@ -17,6 +17,15 @@ scoreboard = Scoreboard()
 ui = UI()
 ui.header()
 
+import turtle
+
+
+running = True
+
+def exit_game():
+    global running
+    running = False
+
 
 
 screen.listen()
@@ -24,6 +33,7 @@ screen.onkey(snake.up,"Up")
 screen.onkey(snake.down,"Down")
 screen.onkey(snake.left,"Left")
 screen.onkey(snake.right,"Right")
+screen.onkey(exit_game, "Escape")
 
 
 
