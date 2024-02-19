@@ -15,13 +15,19 @@ This is a simple implementation of the classic Snake game using Python.
 
    ```bash
    git clone https://github.com/Shivani-Chauhan-Dev/Snake-Game
-1. Navigate to the project directory : cd snake-game
+1. Navigate to the project directory : 
+
+   ```bash
+      cd snake-game
 
 ## Running the Game
 
-1. Run the following command to start the game : python snake_1.py
+1. Run the following command to start the game : 
+   ```bash
+      python main.py 
+
 2. Use the arrow keys to control the direction of the snake.
-3. Eat the food (denoted by *) to grow the snake.
+3. Eat the food (denoted by •) to grow the snake.
 4. Avoid running into the walls or into the snake itself.
 
 ## Gameplay
