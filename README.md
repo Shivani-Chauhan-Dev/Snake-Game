@@ -30,11 +30,6 @@ This is a simple implementation of the classic Snake game using Python.
 - Each time the snake eats food, the score increases.
 - The game ends when the snake collides with the wall or itself.
 
-## Customization
-You can customize aspects of the game such as:
-- Grid size
-- Initial snake length
-- Speed increment factor
-- Symbol for snake, food, and empty space
+
 ## Contributing
 Contributions are welcome! If you'd like to contribute to this project, feel free to fork this repository and submit a pull request with your changes.
